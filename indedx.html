@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC LUXE | Timeless Luxury</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Georgia', serif;
+}
+
+body{
+    background:#000;
+    color:white;
+    line-height:1.6;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+    border-bottom:1px solid rgba(212,175,55,.3);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    width:100px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#d4af37;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    background:linear-gradient(to bottom,#000,#111);
+}
+
+.hero img{
+    width:280px;
+    margin-bottom:30px;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#d4af37;
+    letter-spacing:4px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:20px auto;
+    font-size:1.2rem;
+    color:#ddd;
+}
+
+.btn{
+    background:#d4af37;
+    color:black;
+    padding:15px 35px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:20px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.section h2{
+    color:#d4af37;
+    margin-bottom:20px;
+    font-size:2.5rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#111;
+    padding:30px;
+    border:1px solid rgba(212,175,55,.3);
+    border-radius:10px;
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid rgba(212,175,55,.3);
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <img src="rc-luxe-logo.png" alt="RC Luxe Logo" class="logo">
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <img src="rc-luxe-logo.png" alt="RC Luxe">
+    <h1>RC LUXE</h1>
+    <p>
+        Elevating elegance through timeless craftsmanship and contemporary luxury.
+        RC LUXE is dedicated to delivering premium experiences inspired by
+        sophistication, quality, and exclusivity.
+    </p>
+
+    <a href="#collections" class="btn">Explore Luxury</a>
+</section>
+
+<section class="section" id="collections">
+    <h2>Featured Collections</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Signature Collection</h3>
+            <p>Classic luxury designs crafted to make a lasting impression.</p>
+        </div>
+
+        <div class="card">
+            <h3>Modern Elegance</h3>
+            <p>Refined pieces inspired by contemporary style and innovation.</p>
+        </div>
+
+        <div class="card">
+            <h3>Exclusive Selection</h3>
+            <p>Premium limited-edition offerings curated for distinguished clients.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About RC LUXE</h2>
+
+    <p>
+        RC LUXE represents sophistication, confidence, and excellence.
+        Our brand embraces premium aesthetics while maintaining an
+        approachable luxury experience. Every detail reflects our commitment
+        to quality and timeless design.
+    </p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Email: info@rcluxe.com</p>
+    <p>Phone: (210) 555-0123</p>
+</section>
+
+<footer>
+    © 2026 RC LUXE. All Rights Reserved.
+</footer>
+
+</body>
+</html>
